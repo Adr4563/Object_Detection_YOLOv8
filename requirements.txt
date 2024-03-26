@@ -5,10 +5,11 @@
 # library object detection algorithm
 ultralytics==8.0.196
 # and library for computer vision tasks in Python.
-opencv-python
+opencv-contrib-python
 # and library to download dataset
 roboflow
 # and library of arrays 
 numpy
 # and library to make graphics
 matplotlib
+

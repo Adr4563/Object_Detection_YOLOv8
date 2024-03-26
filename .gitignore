@@ -4,3 +4,5 @@ yolov8s.pt
 best.pt
 # */dataset
 Pothole-3
+# */txt
+batch_register.txt

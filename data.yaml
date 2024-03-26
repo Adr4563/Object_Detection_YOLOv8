@@ -1,4 +1,4 @@
-train: C:\Users\user\Desktop\Batch\Pothole-3\train
-val: C:\Users\user\Desktop\Batch\Pothole-3\valid
+train: C:\Users\user\Desktop\Git-Repositories\Pothole_Detection\Pothole-3\train
+val: C:\Users\user\Desktop\Git-Repositories\Pothole_Detection\Pothole-3\valid
 nc: 1
 names: ["Pothole"]

@@ -4,31 +4,31 @@ import datetime
 
 try:    
     # IP_Address = 'http://192.168.0.103:8080'
-    cap = cv2.VideoCapture(1)
+    cap = cv2.VideoCapture(0)
 except:
-    print("It's doesn't to connect")
+    print("Fail conection")
 
 # Load the model with the best-weights
-model = YOLO('C:\Users\user\Desktop\Batch\weights\best.pt')
+model = YOLO(r'C:\Users\user\Desktop\Git-Repositories\Pothole_Detection\weights\best.pt')
 
 def register(quantity):
     date = datetime.datetime.now()
     if (quantity != 0):
-        with open("registro_baches.txt", "a") as archivo:
+        with open("batch_register.txt", "a") as archivo:
             archivo.write(f"{date}, {quantity}\n")
         
         
 while True:
-    # Capture frame-by-frame
+    # Initialize capture
     ret, frame = cap.read()
-    # Resize the frame | small frame optimise the run
+    # Resize the frame
     resized_frame = cv2.resize(frame, (640,480))
     
     # Display the resulting frame
     cv2.imshow("Batch-Detection", resized_frame)
         
     result = model(frame, verbose=False)
-        
+
     if isinstance(result, list) and result:
         quantity = 0
         for item in result:
