@@ -1,1 +1,6 @@
-# Bartch_Detection
+# Batch Detection with YoloV8
+
+
+
+
+
