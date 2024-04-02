@@ -2,7 +2,7 @@
 # Usage: pip install -r requirements.txt
 
 
-# library object detection algorithm
+# library object detection algorithm (Change the version requiered"
 ultralytics==8.0.196
 # and library for computer vision tasks in Python.
 opencv-contrib-python
@@ -12,4 +12,7 @@ roboflow
 numpy
 # and library to make graphics
 matplotlib
-
+# and library to use python in notebooks
+jupyter
+# byte-tracker
+bytetracker

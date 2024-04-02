@@ -5,3 +5,7 @@ best.pt
 Pothole-3
 # */txt
 batch_register.txt
+# files
+__pycache__
+#json
+.vscode

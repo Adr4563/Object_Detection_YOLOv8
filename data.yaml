@@ -1,4 +1,5 @@
 train: C:\Users\user\Desktop\Git-Repositories\Pothole_Detection\Pothole-3\train
 val: C:\Users\user\Desktop\Git-Repositories\Pothole_Detection\Pothole-3\valid
+test: C:\Users\user\Desktop\Git-Repositories\Pothole_Detection\Pothole-3\test
 nc: 1
 names: ["Pothole"]

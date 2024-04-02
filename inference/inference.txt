@@ -1,1 +1,0 @@
-# Content inference will be download to this path.
