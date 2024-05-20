@@ -1,4 +1,4 @@
-![image](https://github.com/Adr4563/Object_Detection_YOLOv8/assets/135796378/4f09e195-50da-4091-b646-ae7b5d7a3789)# Run YOLO Version 8
+# Run Yolo Model 
 
 - **Index:**
   - Modes 
