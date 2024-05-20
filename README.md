@@ -52,6 +52,7 @@ The requirements are:
   - **Numpy**
   - **Matplotlib**
 
+# Object detecion
 
 ![image](https://github.com/Adr4563/Object_Detection_YOLOv8/assets/135796378/a4eff3b1-f335-4ace-9763-e70d58832967)
 
