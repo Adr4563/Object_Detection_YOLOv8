@@ -45,7 +45,7 @@ First download the requierments to run code:
 ```
 pip install -r requirements.txt
 ```
-The requirements are: 
+Requirements: 
   - **Ultralytics**
   - **Opencv**
   - **Roboflow** 
