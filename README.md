@@ -29,6 +29,6 @@ the `init.py`.
 
 # Google Colabs - Jupyter YoloV8
 
-Link: [Google colabs-YoLoV8](https://colab.research.google.com/drive/14iyHGM2w4S5QXWvJryMiFa0pXA-OB6CT?usp=sharing)
+**Link: [Google colabs-YoLoV8](https://colab.research.google.com/drive/14iyHGM2w4S5QXWvJryMiFa0pXA-OB6CT?usp=sharing)**
 
 
