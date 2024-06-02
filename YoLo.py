@@ -9,9 +9,9 @@ while cap.isOpened():
     # Read a frame from the video
     ret, frame = cap.read()
     
-    results = model.predict(frame, persist=True)
+    results = model.track(frame, persist=True)
     # Tracking
-    # results = modelo.track(frame, persist=True)
+    # results = model.track(frame, persist=True)
 
     annotations = results[0].plot()
     

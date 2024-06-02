@@ -1,4 +1,5 @@
-*.pt
+.conda
+best.pt
 Pothole-3
 batch_register.txt
 __pycache__
