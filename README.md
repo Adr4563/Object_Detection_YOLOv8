@@ -9,8 +9,6 @@ Uninstall libraries
 pip uninstall -r requirements.txt -y
 ```
 
-
-
 # Verify shm.dll file in Pytorch
 
 Init int CMD/Terminal and go
@@ -28,3 +26,9 @@ If you don't have the file `shm.dll`, you need to go to the next link:
 Then, copy the code from the link and put it in `init.py`. In the path "C:...." of pytorch packages you can find
 the `init.py`.
 ```
+
+# Google Colabs - Jupyter YoloV8
+
+Link: [Google colabs-YoLoV8](https://colab.research.google.com/drive/14iyHGM2w4S5QXWvJryMiFa0pXA-OB6CT?usp=sharing)
+
+
