@@ -1,0 +1,7 @@
+ultralytics==8.0.196
+opencv-contrib-python
+roboflow
+numpy
+matplotlib
+jupyter
+bytetracker
